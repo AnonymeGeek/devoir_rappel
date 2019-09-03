@@ -39,6 +39,7 @@ def menu_piano():
         if(suppr_verification == "o"):
             devoirs_piano = "Aucun devoirs"
             date_devoirs_piano = "-"
+            print("Les devoirs ont été supprimés")
             menu_piano()
         else: menu_piano()
 
